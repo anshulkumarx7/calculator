@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            height:100vh;
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+        form label{
+            padding:1rem;
+            display:block;
+        }
+        form input {
+            display:inline-block;
+        }
+        button{
+            margin-top:0.7rem;
+            display: inline-block;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form action="/bmicalculator" method="post">
+        <label for="weight">Weight</label>
+        <input type="text" name="weight" placeholder="Enter your Weight">
+        <label for="height">Height</label>
+        <input type="text" name="height" placeholder="Enter your Height">
+        <br>
+        <button type="submit" name="submit">Calculate BMI</button>
+    </form>
+</body>
+</html>

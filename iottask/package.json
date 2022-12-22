@@ -1,0 +1,10 @@
+{
+  "name": "iottask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "prisma": "^4.8.0",
+    "typescript": "^4.9.4"
+  }
+}
